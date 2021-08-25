@@ -19,7 +19,7 @@ body {
 
 #title {
   color: #fffffe;
-  font-family: "Inter";
+  font-family: "Inter" !important;
   font-weight: 700;
   font-size: 32px;
   padding: 20px;
@@ -30,9 +30,49 @@ body {
   width: 90%;
 }
 
-.btn-danger{
+.btn-danger {
   width: 90%;
   height: 50px;
   border-radius: 6px;
-
+  background-color: #ef4565 !important;
 }
+
+h3 {
+  padding: 16px;
+  height: 50px;
+  width: 100%;
+  color: white;
+  font-size: 23px !important;
+  font-weight: 500 !important;
+  font-family: "Inter";
+}
+
+#correo {
+  font-family: "Inter";
+  font-size: 18px;
+  width: 90%;
+  height: 50px;
+  border-radius: 6px;
+}
+p a {
+  font-family: "Inter" !important;
+  color: #25ac73 !important;
+  font-size: 16px !important;
+}
+
+#olvContraseña {
+  font-size: 18px !important;
+  margin-top: 50px !important;
+}
+
+#etiqueta {
+
+  font-size: 18px !important;
+  color: white !important;
+}
+
+#Inscribir {
+  font-size: 18px !important;
+}
+
+
