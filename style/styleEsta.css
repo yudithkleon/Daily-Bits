@@ -1,18 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 body {
   background-color: #16161a !important;
+  justify-content: right;
   display: flex;
   flex-direction: column;
-  align-items: center;
+ align-items: center;
 }
+
 .titulo {
+  justify-content: right !important;
   color: white !important;
   font-family: "Inter" !important;
   font-size: 15px;
   padding-top: 20px;
-  position: static;
-  padding: 40px;
-  text-align: center;
+  text-align: right;
   letter-spacing: 0.0015em;
 }
 
@@ -21,22 +22,11 @@ body {
     display: flex;
     justify-content: center;
 }
-.grupo1{
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-}
-.Js{
-    margin-left: 50px;
-}
-.Ux{
-    margin-left: 50px;
-}
 
 .pie{
+ 
     background-color: rgb(51, 49, 49);
-    padding: 15px;
+    padding-top: 15px;
     display: flex;
     justify-content: center;
     margin : 20px;

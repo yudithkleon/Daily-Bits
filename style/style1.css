@@ -37,6 +37,11 @@ body {
   background-color: #ef4565 !important;
 }
 
+#ir{
+  margin-top: 5px;
+ width: 10%;
+ padding: 10px;
+}
 h3 {
   padding: 16px;
   height: 50px;
@@ -62,7 +67,7 @@ p a {
 
 #olvContraseña {
   font-size: 18px !important;
-  margin-top: 50px !important;
+  margin-top: 20px !important;
 }
 
 #etiqueta {

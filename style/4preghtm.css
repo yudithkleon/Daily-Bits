@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+body {
+  background-color: #16161a !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.logo{
+width: 100%;
+display: flex;
+margin: 15px;
+}
+
+.progress{
+    width: 80%;
+    margin: 7px;
+}
+
+#vidas{
+    color: white !important;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.corazon{
+    margin-left: 10px;
+}
+
+.x{
+    margin-left: 10px;
+    background-color:rgb(245, 245, 245);
+}
+
+.contener2 {
+  margin: 19px;
+  display: flex;
+  justify-content: center;
+}
+
+.imagen {
+  margin-left: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+#title {
+  color: white !important;
+  font-family: "Inter" !important;
+  font-size: 25px;
+  text-align: center;
+}
+
+
+.preguntas {
+  display: flex;
+  justify-content: center;
+  margin: 32px;
+  text-align: center;
+  width: 100%;
+}
+
+.arriba{
+  display: flex;
+  justify-content: center;
+  margin: 32px;
+  text-align: center;
+}
+
+.abajo{
+    display: flex;
+    justify-content: center;
+    margin: 32px;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+#ir {
+   background-color: rgb(173, 116, 214);
+   border: transparent;
+   display: flex;
+   justify-content: center;
+      margin: 30px;
+   width: 90%;
+   border-radius: 15px;
+  }

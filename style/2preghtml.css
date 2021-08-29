@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+body {
+  background-color: #16161a !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.logo{
+
+width: 100%;
+display: flex;
+margin: 15px;
+}
+
+.progress{
+    width: 80%;
+    margin: 7px;
+}
+
+#vidas{
+    color: white !important;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.corazon{
+    margin-left: 10px;
+}
+
+.x{
+    margin-left: 10px;
+    background-color:rgb(245, 245, 245);
+}
+
+.contener2 {
+  margin: 19px;
+  display: flex;
+  justify-content: center;
+}
+
+.imagen {
+  margin-left: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+#title {
+  color: white !important;
+  font-family: "Inter" !important;
+  font-size: 25px;
+  text-align: center;
+}
+
+
+.preguntas {
+  display: flex;
+  justify-content: center;
+  margin: 32px;
+  text-align: center;
+  width: 100%;
+}
+
+.respuestas {
+  margin: 18px;
+  margin-top: 50px;
+}
+
+.input{
+    display:flex;
+    justify-content:space-between;
+    background: #232E35;
+    margin-top: 15px;
+    height: 56px;
+    border: 2px solid #FFFFFE;
+    border-radius: 4px;
+}
+
+.resp{
+    margin: 20px;
+    font-family: "Inter" !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #ffffee;
+}
+
+.editar{
+    width:25px;
+    height:25px;
+    border: 2px solid #FFFFFE;;
+    border-radius: 50%;
+    margin: 16px;
+    display:flex;
+    justify-content:center;
+    align-items: center
+}
+
+.check{
+    width: calc(100% - 6px);
+    height:calc(100% - 6px);
+    border-radius: 50%;
+    background-color:#FFFFFE;;
+    display: inline-block;
+    opacity: 0;
+}
+
+.editar input{
+    display:none;
+}
+
+.editar input:checked + .check{ 
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+
+h4{
+    color: white !important;
+    font-family: "Inter" !important;
+    font-size: 20px !important;
+    margin-left: 15px;
+}
+
+
+#ir {
+   background-color: rgb(173, 116, 214);
+   border: transparent;
+   display: flex;
+   justify-content: center;
+      margin: 30px;
+   width: 90%;
+   border-radius: 15px;
+  }
