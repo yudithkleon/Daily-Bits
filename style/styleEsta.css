@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 body {
   background-color: #16161a !important;
-  justify-content: right;
   display: flex;
+  justify-content: right;
   flex-direction: column;
- align-items: center;
+  align-items: center;
+width: 100vh;
 }
 
 .titulo {
@@ -17,16 +18,20 @@ body {
   letter-spacing: 0.0015em;
 }
 
-.Html{
-    padding: 20px;
+.subtitulo{
+
+    color: white;
     display: flex;
-    justify-content: center;
+    text-justify: auto;
+    justify-content: right !important;
+    font-family: "Inter" !important;
+    font-size: 25px !important;
 }
 
+
 .pie{
- 
     background-color: rgb(51, 49, 49);
-    padding-top: 15px;
+    padding: 15px;
     display: flex;
     justify-content: center;
     margin : 20px;
@@ -42,4 +47,39 @@ body {
     margin-right: 150px !important; 
 }
 
+.contenido{
+    margin: 18px;
+    width: 90%;
+}
+.respuestas{
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin: 18px;
+ ;
+}
+.icon{
+    margin: 13px;
+}
 
+h4{
+    color: honeydew;
+    font-family: "Inter" !important;
+    font-size: 20px !important;
+}
+
+.respCambiante{
+                                                                         
+    margin-left:200px;
+}
+
+#correc{
+    color: green;
+    font-size: 25px ;
+    margin-left: 225px ;
+}
+
+#incorrec{
+    color: red;
+    font-size: 25px;
+    margin-left: 220px ;
+}

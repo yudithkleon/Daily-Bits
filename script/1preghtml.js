@@ -3,31 +3,34 @@ let btn = document.getElementById("ir");
 let respBien = 0;
 let respMal = 0;
 let respTotal = 0;
-let vidas = 4;
+
 
 btn.addEventListener("click", capturarDatos);
 
 function capturarDatos() {
   let resp = document.querySelector("input[name=respuesta]:checked").value;
-  let vidas =document.getElementById('vidas').value;
-  let condicion= document.getElementById('condicion');
-  compRespuesta(resp, vidas, condicion);
+  let vidas =document.getElementById('vidas');
+  vidas = 4;
+  compRespuesta(resp, vidas);
 }
 
-function compRespuesta(resp, vidas, condicion) {
+function compRespuesta(resp, vidas){
   respTotal = respTotal + 1;
   if (resp == "main") {
     correcta();
+    document.getElementById("progreso").innerHTML += `<div id="progreso" class="progress-bar bg-success progres" role="progressbar" style="width: 17%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>`;
+    document.getElementById("condicion").innerHTML +=`<label id="vidas">${vidas}</label>`;
     respBien = respBien + 1;
+    console.log(vidas);
     console.log(respBien);
-    document.getElementById.innerHTML = `<div id="progreso" class="progress-bar bg-success progres" role="progressbar" style="width: 17%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>`;
-
   } 
   else
   {
     incorrecta();
     vidas = vidas - 1;
-    console.log(vidas);
+    document.getElementById("condicion").innerHTML += `<label id="vidas">${vidas}</label>`;
+    console.log('me quedan vidas;');
+    console.log (vidas);
     respMal = respMal + 1;
     console.log(respMal);
    
@@ -47,7 +50,7 @@ function incorrecta() {
   Swal.fire({
     position: "bottom",
     background: "#F9CFD7",
-    text: "¡Asi No es!",
+    text: "¡Sigue intentandolo!",
     confirmButtonText: "continuar",
   });
 }

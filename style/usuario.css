@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+body {
+  background-color: #16161a !important;
+  margin: 30px;
+  width: 100vh;
+}
+
+.titulo{
+  display: flex;
+  margin-top: 40px;
+  margin-left: 20px;
+  color: rgb(250, 244, 244) !important;
+  font-family: "Inter" !important;
+  font-size: 15px;
+}
+
+.logo {
+    padding: 30px;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  
+  #formulario{
+    color: rgb(250, 244, 244) !important;
+  font-family: "Inter" !important;
+  font-size: 18px;  
+  }
+
+input{
+      border-radius: 14px;
+  }
+
+ .ir {
+    background-color: rgb(173, 116, 214);
+    border: transparent;
+    display: inline-flex;
+    justify-content: center;
+    margin: 20px;
+    width: 40%;
+    border-radius: 15px;
+   }
+.guardar-cambios{
+    background-color:transparent;
+    border: transparent;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+.pie{
+    background-color: rgb(51, 49, 49);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    margin : 20px;
+    width: 100vh;
+}
+
+
+#imgHome{
+    margin-right: 70px !important;  
+ 
+}
+#imgEstad{
+    margin-left: 70px !important; 
+    margin-right: 150px !important; 
+}
+

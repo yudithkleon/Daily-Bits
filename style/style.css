@@ -8,3 +8,16 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+#ir {
+    display: flex;
+    margin-top: 700px;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px !important;
+    background-color:#b4b2bb !important; 
+    border: transparent;
+    width: 90%;
+    border-radius: 10px;
+   }
+
